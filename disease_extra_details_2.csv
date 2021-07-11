@@ -1,0 +1,44 @@
+,Disease,Symptoms,Average Duration
+1,ak,"1. Limit your time in the sun. Especially avoid time in the sun between 10 a.m. and 2 p.m. And avoid staying in the sun so long that you get a sunburn or a suntan.
+2. Use sunscreen. 
+3. Cover up. 
+4. Avoid tanning beds. 
+5. Check your skin regularly and report changes to your doctor.
+",Lifetime until treated
+2,bcc,"1. Protect your skin with clothing.
+2. Don't forget to wear a hat that protects your face, neck and ears.
+3. Spend time in the shade between 11am and 3pm when it's sunny.
+4. Step out of the sun before your skin has a chance to redden or burn.",Lifetime
+3,dermatofibroma,"1. freezing (with liquid nitrogen)
+2. localized corticosteroid injection.
+3. laser therapy.
+4. shaving the top to flatten the growth.",1 week
+4,hemangioma,"1. Beta-blockers.
+2. Corticosteroid medication. Corticosteroids may be injected into a hemangioma to reduce its growth and to stop inflammation. 
+3. Laser treatment. Laser treatment can be used to remove hemangiomas on the top layers of the skin. 
+4. Medicated gel.",5 years
+5,intraepithelial carcinoma,1. Apply broad-spectrum sunscreen with a minimum of 30 sun protection factor.,2.5 years
+6,lentigo,"1. Try to avoid sun exposure.
+2. Avoid during the peak sun hours between 10 a.m. and 2 p.m. 
+3. When you do go outside in the sun, always wear sunscreen with UVA/UVB protection.
+4. Put on sun-protective clothing and a wide-brimmed hat.",12 days
+7,melanoma,"1. Never Intentionally Expose Your Skin to the Sun. 
+2. Wear Sunscreen. Make sunscreen a daily habit. 
+3. Wear Protective Clothing.
+4. Avoid Peak Rays.
+5. Don't Use Tanning Beds.",3 months
+8,nevus,1. No such precautions for this disease. You need to visit doctor for more information.,13 years
+9,pyogenic granuloma,No precautions. Contact doctor for further treatment,Lifetime
+10,scc,"1. apply broad-spectrum sunscreen with a minimum of 30 sun protection factor (SPF)
+2. reapply sunscreen every two hours if you're sweating or swimming.
+3. stay in the shade.
+4. wear protective hats and clothing.",6 weeks
+11,sebk,"1. Freezing with liquid nitrogen (cryosurgery).
+2. Scraping the skin's surface (curettage).
+3. Burning with an electric current (electrocautery). 
+4. Vaporizing the growth with a laser (ablation). 
+5. Applying a solution of hydrogen peroxide.",Lifetime
+12,warts,"1. Avoid shaving over a wart.
+2. Break the habit of biting your nails or picking at cuticles.
+3. Don't share towels, washcloths, clothing, nail clippers, razors or other personal items.
+4. Don't touch another person's wart.",2 years

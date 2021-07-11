@@ -1,0 +1,13 @@
+Flask
+Keras
+numpy
+pandas
+Werkzeug
+wgetter
+opencv-python
+gevent
+dill
+joblib
+scikit_learn
+tensorflow
+python-csv
