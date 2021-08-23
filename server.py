@@ -54,21 +54,15 @@ def upload_file():
         print("d:  " + str(pred_class))
         pred_class_name = get_pred_class_name(pred_class)
         pred_class_extra_details_dic = get_pred_class_extra_details(pred_class_name)
-        #pred_class_extra_details_dic["Disease"] = pred_class_extra_details_dic["Disease"].replace("%20", " ")
         print("Predicted class is {}".format(pred_class_name))
-        #joblib.dump(pred_class_extra_details_dic, 'diseaseinfo_for_messenger.pkl')  # super hacky
-        #joblib.dump(pred_class_extra_details_dic, 'diseaseinfo.pkl')  # super hacy
-        #print(pred_class_extra_details_dic)
+
         if request.method == 'POST':
             return jsonify(
         diseaseName=pred_class_name,
         precautions=pred_class_extra_details_dic.strip("\n")
     )
 
-        # hack for twitter
         return pred_class_extra_details_dic
-        # display_results(pred_class_extra_details_dic)
-        # return ''
 
     return "upload rejected"
 
@@ -90,9 +84,9 @@ def get_pred_class_extra_details(pred_class_name):
 
     csv_file = csv.reader(open(EXTRA_DETAILS_LOCATION, "r"), delimiter=",")
 
-    # loop through the csv list
+
     for row in csv_file:
-        # if current rows 2nd value is equal to input, print that row
+
         if pred_class_name== row[1]:
             row = row[2].strip('. ')
 
